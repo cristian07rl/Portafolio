@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 export const Habilidades = () => {
   const img = [<img src='\assets\html.svg' key={0} alt='html logo' width={60} />,
     <img src='\assets\css.svg' key={1} alt='js logo' width={60} />,
-    <img src='\assets\css.svg' key={1} alt='js logo' width={60} />,
+    <img src='\assets\jsSvg.svg' key={1} alt='js logo' width={60} />,
     <img src='\assets\react.svg' key={1} alt='js logo' width={60} />,
     <img src='\assets\mongoDB.svg' key={1} alt='js logo' width={60} />,
     <img src='\assets\nodejs.svg' key={1} alt='js logo' width={60} />]
