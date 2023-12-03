@@ -1,7 +1,6 @@
 import { Aboutme } from './sobremi'
 import { Habilidades } from './habilidades'
 import { Proyectos } from './proyectos'
-import { Contacto } from './contacto'
 import { Boxanimated } from './boxanimated'
 import Initial from '../components/initialview'
 
@@ -26,12 +25,6 @@ export const Caja = ({ index }) => {
   if (index === 3) {
     return (
       <Boxanimated content={<Proyectos />} />
-
-    )
-  }
-  if (index === 4) {
-    return (
-      <Boxanimated content={<Contacto />} />
 
     )
   }

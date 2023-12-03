@@ -19,8 +19,8 @@ export const Proyectos = () => {
         </div>
 
         <div className='project-technologies'>
-          <img src='src/assets/php.svg' alt='php Logo' />
-          <img src='src/assets/mysql.svg' alt='mysql Logo' />
+          <img src='/assets/php.svg' alt='php Logo' />
+          <img src='/assets/mysql.svg' alt='mysql Logo' />
         </div>
 
         <div className='project-description'>
@@ -32,8 +32,8 @@ export const Proyectos = () => {
         </div>
 
         <div className='project-technologies'>
-          <img src='src/assets/nodejs.svg' alt='node.js' />
-          <img src='src/assets/postqresql.svg' alt='postgresql' />
+          <img src='/assets/nodejs.svg' alt='node.js' />
+          <img src='/assets/postqresql.svg' alt='postgresql' />
         </div>
 
         <div className='project-description'>
@@ -44,10 +44,10 @@ export const Proyectos = () => {
         </div>
 
         <div className='project-technologies'>
-          <img src='src/assets/nextjs.svg' alt='next.js Logo' />
-          <img src='src/assets/react.svg' alt='react Logo' />
-          <img src='src/assets/mongoDB.svg' alt='mongodb Logo' />
-          <img src='src/assets/nodejs.svg' alt='node.js Logo' />
+          <img src='/assets/nextjs.svg' alt='next.js Logo' />
+          <img src='/assets/react.svg' alt='react Logo' />
+          <img src='/assets/mongoDB.svg' alt='mongodb Logo' />
+          <img src='/assets/nodejs.svg' alt='node.js Logo' />
         </div>
       </div>
     </>
