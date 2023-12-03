@@ -8,7 +8,6 @@ export const Barra = ({ setIndex }) => {
       <a onClick={() => handleclick(1)}>sobre mi</a>
       <a onClick={() => handleclick(2)}>habilidades</a>
       <a onClick={() => handleclick(3)}>proyectos</a>
-      <a onClick={() => handleclick(4)}>contacto</a>
     </div>
   )
 }

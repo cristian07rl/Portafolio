@@ -12,7 +12,7 @@ export const Habilidades = () => {
       opacity: 1,
       scale: 1,
       transition: {
-        delayChildren: 0.8,
+        delayChildren: 0.6,
         staggerChildren: 0.3
       }
     }
