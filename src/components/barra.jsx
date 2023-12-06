@@ -4,10 +4,9 @@ export const Barra = ({ setIndex }) => {
   }
   return (
     <div className='barra'>
-      <a onClick={() => handleclick(0)}>home</a>
-      <a onClick={() => handleclick(1)}>sobre mi</a>
-      <a onClick={() => handleclick(2)}>habilidades</a>
-      <a onClick={() => handleclick(3)}>proyectos</a>
+      <a onClick={() => handleclick(0)}>Home</a>
+      <a onClick={() => handleclick(1)}>Habilidades</a>
+      <a onClick={() => handleclick(2)}>Proyectos</a>
     </div>
   )
 }

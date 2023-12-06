@@ -5,7 +5,10 @@ export const Habilidades = () => {
     <img src='\assets\jsSvg.svg' key={1} alt='js logo' width={60} />,
     <img src='\assets\react.svg' key={1} alt='js logo' width={60} />,
     <img src='\assets\mongoDB.svg' key={1} alt='js logo' width={60} />,
-    <img src='\assets\nodejs.svg' key={1} alt='js logo' width={60} />]
+    <img src='\assets\nodejs.svg' key={1} alt='js logo' width={60} />,
+    <img src='\assets\php.svg' key={1} alt='js logo' width={60} />,
+    <img src='\assets\postqresql.svg' key={1} alt='js logo' width={60} />,
+    <img src='\assets\nextjs.svg' key={1} alt='js logo' width={60} />]
   const container = {
     hidden: { opacity: 1, scale: 0 },
     visible: {
@@ -13,7 +16,7 @@ export const Habilidades = () => {
       scale: 1,
       transition: {
         delayChildren: 0.6,
-        staggerChildren: 0.3
+        staggerChildren: 0.2
       }
     }
   }
@@ -30,8 +33,8 @@ export const Habilidades = () => {
 
       <h1>Habilidades clave</h1>
       <p>
-        Tengo compentecias en tecnologías clave que me permiten desarrollar aplicaciones web robustas y escalables tales como React,
-        Node.js, MongoDB.
+        Complementé mis estudios de ingeniería con un fuerte interés en sistemas de adquisición de datos.
+        Me he dedicado a aprender y aplicar tecnologías como React, JavaScript, Node.js, Postgres y MongoDB habilidades que he reforzado a través de proyectos personales y autoaprendizaje activo.
       </p>
       <motion.ul
         className='skill'

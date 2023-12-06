@@ -8,11 +8,11 @@ export const Boxanimated = ({ content }) => {
     hidden: { opacity: 1 },
     visible: {
       opacity: 1,
-      width: ['100%', '10%', '100%', '100%'],
+      width: ['100%', '55%', '5%', '55%', '100%'],
       color: ['#ffffff', '#ffffff', '#ffffff', '#000'],
       transition: {
-        duration: 0.5,
-        delayChildren: 0.3
+        duration: 0.4,
+        delayChildren: 0.5
       }
     },
     salida: { opacity: 0 }

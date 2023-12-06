@@ -19,10 +19,15 @@
     min-height: 100vh;
     display: flex;
     background-color: #f0f0f0;
-    justify-content: space-between;
     flex-direction: column;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 .App {
     height: fit-content;
@@ -37,44 +42,88 @@
     display: flex;
     justify-content: center;
     background-color: #000;
+    
     padding-top: 40px;
-    color: #ffd700;
+    color: #ffff;
 }
 
-footer {
+
+.introduccion .st{
+    font-size: 2rem;
+    font-style: italic;
+}
+.svg-inline--fa{
+    height: 40px;
+}
+.contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px auto;
+    row-gap: 10px;
+    column-gap: 50px;
+    justify-items: start;
+}
+
+.info{
     display: flex;
-    padding: 24px;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.info .svg-inline--fa{
+    height:30px;
+}
+
+span {
+    font-size: 1.4rem;
 }
 
 .introduccion {
     display: grid;
-    justify-items: center;
-    grid-template-columns: 3fr 1fr;
-    margin: 20px;
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 20px;
+}
+
+.col2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 .introduccion div {
-    grid-row-start: -1;
-    grid-row-end: -2;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
 
-@media (width < 1000px) {
+@media (width < 800px) {
     .introduccion {
-        display: grid;
-        justify-items: center;
-        grid-template-columns: 1fr;
-        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .introduccion div {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        
     }
 }
 
 .introduccion h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 
 }
 
 .introduccion p {
-    font-size: 2rem;
-    text-wrap: balance;
+    font-size: 1.2rem;
 }
 
 .caja {
@@ -105,11 +154,13 @@ footer {
     display: none;
     flex-direction: column;
     opacity: 0;
-    padding: 2em;
+    text-align: center;
 }
 
 .contenido p {
-    max-width: 700px;
+    max-width: 800px;
+    margin: 10px auto;
+    text-align: justify;
 }
 
 .contenido ul {
@@ -149,9 +200,6 @@ button:focus-visible {
     outline: 4px auto -webkit-focus-ring-color;
 }
 
-.svg-inline--fa {
-    height: 40px;
-}
 
 .about-me {
     display: flex;
@@ -165,8 +213,7 @@ button:focus-visible {
 }
 
 .skill {
-    width: 350px;
-    height: 150px;
+
     display: grid;
     margin: 0;
     list-style: none;
@@ -183,16 +230,24 @@ button:focus-visible {
     margin-bottom: 2em;
     grid-template-columns: 4fr 1fr;
     row-gap: 40px;
+    column-gap: 20px;
+    padding: 20px;
 }
 
-.project-description p{
-   margin: 10px;
+.project-description{
+    text-align: start;
+}
+
+.project-description p {
+    margin: 20px;
 }
 
 .project-description a {
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
+
+
 
 .project-description a .svg-inline--fa {
     max-width: 25px;
