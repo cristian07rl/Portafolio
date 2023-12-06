@@ -7,10 +7,11 @@ function Initial () {
           <p className='st'>Ingeniero mecatronico dedicado al desarrollo de software y diseño web.</p>
 
           <p>
-            Actualmente me encuentro en Cartagena, Colombia, buscando mi primera oportunidad profesional en el sector tecnológico.
+            Complementé mis estudios de ingeniería con un fuerte interés en sistemas de adquisición de datos.
+            Me he dedicado a aprender y aplicar tecnologías como React, JavaScript, Node.js, Postgres y MongoDB habilidades que he reforzado a través de proyectos personales y autoaprendizaje activo.
           </p>
 
-          <p>Mi objetivo es iniciar mi carrera en el desarrollo de software, aprovechando mis conocimientos técnicos y mi capacidad para aprender rápidamente.
+          <p>
             Estoy especialmente interesado en roles que me permitan contribuir con mis habilidades de programación, al tiempo que me brindan la oportunidad de seguir creciendo y aprendiendo en este dinámico campo.
           </p>
         </div>

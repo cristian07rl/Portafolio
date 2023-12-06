@@ -33,8 +33,7 @@ export const Habilidades = () => {
 
       <h1>Habilidades clave</h1>
       <p>
-        Complementé mis estudios de ingeniería con un fuerte interés en sistemas de adquisición de datos.
-        Me he dedicado a aprender y aplicar tecnologías como React, JavaScript, Node.js, Postgres y MongoDB habilidades que he reforzado a través de proyectos personales y autoaprendizaje activo.
+        Tecnologías como React, JavaScript, Node.js, Postgres y MongoDB son habilidades que he reforzado a través de proyectos personales y autoaprendizaje activo.
       </p>
       <motion.ul
         className='skill'
