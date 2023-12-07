@@ -98,25 +98,6 @@ span {
     grid-row-end: 3;
 }
 
-@media (width < 800px) {
-    .introduccion {
-        display: flex;
-        flex-direction: column;
-        
-    }
-    .introduccion div {
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-    .contacto {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        margin: 0;
-        
-    }
-}
-
 .introduccion h1 {
     font-size: 3.5rem;
 
@@ -127,6 +108,7 @@ span {
 }
 
 .caja {
+    margin: auto;
     padding: 40px;
     max-width: 1100px;
     min-height: calc(100vh - 190px);
@@ -231,7 +213,7 @@ button:focus-visible {
     grid-template-columns: 4fr 1fr;
     row-gap: 40px;
     column-gap: 20px;
-    padding: 20px;
+    
 }
 
 .project-description{
@@ -268,4 +250,29 @@ button:focus-visible {
     /* Ajusta el tamaño según tus preferencias */
     height: auto;
     margin-right: 10px;
+}
+
+@media (width < 800px) {
+    .introduccion {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .introduccion div {
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+        
+    }
+    .project {
+        grid-template-columns: 1fr;
+    }
+    .caja{
+        padding: 30px;
+    }
 }
