@@ -8,11 +8,13 @@ function Initial () {
 
           <p>
             Complementé mis estudios de ingeniería con un fuerte interés en sistemas de adquisición de datos.
-            Me he dedicado a aprender y aplicar tecnologías como <strong>React, JavaScript, Node.js, Postgres y MongoDB</strong> habilidades que he reforzado a través de proyectos personales y autoaprendizaje activo.
+            Me he dedicado a aprender y aplicar tecnologías como React, JavaScript, Node.js, Postgres y MongoDB,
+            habilidades que he reforzado a través de proyectos personales y autoaprendizaje activo.
           </p>
 
           <p>
-            Estoy especialmente interesado en roles que me permitan contribuir con mis habilidades de programación, al tiempo que me brindan la oportunidad de seguir creciendo y aprendiendo en este dinámico campo.
+            Estoy especialmente interesado en roles que me permitan contribuir con mis habilidades de programación,
+            al tiempo que me brindan la oportunidad de seguir creciendo y aprendiendo en este dinámico campo.
           </p>
         </div>
         <div className='col2'>
