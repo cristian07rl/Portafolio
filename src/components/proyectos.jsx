@@ -17,8 +17,8 @@ export const Proyectos = () => {
         <div className='project-description'>
           <h4>Coopworker</h4>
           <p>Desarrollé una aplicación web utilizando <strong>Next.js</strong> para impulsar la eficiencia interna de una cooperativa de trabajo asociado.
-            Me centré en la gestión integral de la información de los asociados, implementando funcionalidades clave como el registro, actualización y búsqueda utilizando <strong>MongoDB</strong> como base de datos.
-            Este proyecto no solo mejoró la operatividad interna, sino que también demostró mis habilidades en el desarrollo web y la gestión de bases de datos
+            Me centré en la gestión integral de la información de los asociados, implementando funcionalidades clave como el registro, actualización y búsqueda de datos.
+            Este proyecto, en su etapa inicial, demostró potencial para mejorar la operatividad interna y afianzó mis habilidades en el desarrollo web y el manejo de bases de datos.
           </p>
           <a href='https://github.com/cristian07rl/coopworker' target='_blank' rel='noreferrer'><i className='fa-brands fa-github' /> Coopworker</a>
         </div>
@@ -33,7 +33,7 @@ export const Proyectos = () => {
         <div className='project-description'>
           <h4>DashboardSolar</h4>
           <p>Desarrollé un proyecto personal destinado a la monitorización de los datos de producción y consumo de una pequeña instalación solar.
-            Utilizando un ESP8266 para recolectar los datos y enviarlos al servidor por medio de sockets usando <strong>Node.js</strong>. La información recopilada se almacena en una base de datos <strong>PostgreSQL</strong>.
+            Utilizando sensores para recolectar los datos y enviarlos al servidor por medio de sockets hechos con <strong>Node.js</strong> y utilizando <strong>PostgreSQL</strong> como base de datos.
           </p>
           <a href='https://github.com/cristian07rl/DashboarSolar' target='_blank' rel='noreferrer'><i className='fa-brands fa-github' /> DashboarSolar</a>
         </div>
