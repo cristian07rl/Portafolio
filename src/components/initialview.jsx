@@ -4,7 +4,7 @@ function Initial () {
       <div className='introduccion'>
         <div>
           <h1>Cristian Rodriguez Leguia</h1>
-          <p className='st'>Ingeniero mecatronico dedicado al desarrollo de software y diseño web.</p>
+          <p className='st'>Ingeniero mecatronico dedicado al desarrollo de software y desarrollo web.</p>
 
           <p>
             Complementé mis estudios de ingeniería con un fuerte interés en sistemas de adquisición de datos.

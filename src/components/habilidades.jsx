@@ -6,7 +6,7 @@ export const Habilidades = () => {
     <img src='\assets\react.svg' key={1} alt='js logo' width={60} />,
     <img src='\assets\mongoDB.svg' key={1} alt='js logo' width={60} />,
     <img src='\assets\nodejs.svg' key={1} alt='js logo' width={60} />,
-    <img src='\assets\php.svg' key={1} alt='js logo' width={60} />,
+    <img src='\assets\rails-svgrepo.svg' key={1} alt='js logo' width={60} />,
     <img src='\assets\postqresql.svg' key={1} alt='js logo' width={60} />,
     <img src='\assets\nextjs.svg' key={1} alt='js logo' width={60} />]
   const container = {

@@ -3,18 +3,6 @@ export const Proyectos = () => {
     <>
       <div className='project'>
         <div className='project-description'>
-          <h4>Edusaludapp</h4>
-          <p>
-            Durante mis practicas profesionales desarrollé Edusaludapp, una página web dedicada a proporcionar a los padres de familia acceso conveniente a informes personalizados de profesionales de la salud y la educación para casos específicos.
-            Desarrollé la plataforma utilizando <strong>HTML, PHP y JavaScript</strong>, asegurándome de que fuera intuitiva y eficaz en la entrega de información crucial.
-          </p>
-        </div>
-
-        <div className='project-technologies'>
-          <img src='/assets/php.svg' alt='php Logo' />
-          <img src='/assets/mysql.svg' alt='mysql Logo' />
-        </div>
-        <div className='project-description'>
           <h4>Coopworker</h4>
           <p>Desarrollé una aplicación web utilizando <strong>Next.js</strong> para impulsar la eficiencia interna de una cooperativa de trabajo asociado.
             Me centré en la gestión integral de la información de los asociados, implementando funcionalidades clave como el registro, actualización y búsqueda de datos.
@@ -43,6 +31,22 @@ export const Proyectos = () => {
           <img src='/assets/postqresql.svg' alt='postgresql' />
         </div>
 
+        <div className='project-description'>
+          <h4>Asomucoco</h4>
+          <p>
+            SPA pequeña para una asociacion de mujeres rurales sin animo de lucro, creado con el fin de cumplir con las normativas de la Dian.
+            la pagina esta echa usando <strong>React</strong>.
+          </p>
+          <div>
+            <a href='https://asomucoco.org/' target='_blank' rel='noreferrer'><i className='fa-solid fa-link' /> Asomucoco.org</a>
+            <a href='https://github.com/cristian07rl/Webasosiacion' target='_blank' rel='noreferrer'><i className='fa-brands fa-github' /> Asomucoco</a>
+          </div>
+        </div>
+
+        <div className='project-technologies'>
+          <img src='/assets/react.svg' alt='react Logo' />
+          <img src='/assets/jsSvg.svg' alt='js Logo' />
+        </div>
       </div>
     </>
   )
