@@ -19,7 +19,7 @@ function Initial () {
         </div>
         <div className='col2'>
           <img src='\assets\foto.jpg' alt='soy yo' width={220} height={240} />
-          <a href='/cristian rodriguez.pdf' download='CristianRodriguezCV'><i className='fa-solid fa-download' /> Descargar cv</a>
+          <a href='/CristianRodriguez.pdf' download='CristianRodriguezCV'><i className='fa-solid fa-download' /> Descargar cv</a>
 
         </div>
       </div>
